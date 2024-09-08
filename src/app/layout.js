@@ -11,6 +11,7 @@ storyblokInit({
 
 export default async function RootLayout({ children }) {
   const currentConfig = await StoryblokCMS.getConfig();
+  // console.log("currentConfig", currentConfig);
   return (
     <StoryblokProvider>
       <html>

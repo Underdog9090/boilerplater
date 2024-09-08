@@ -6,11 +6,20 @@ import Page from "@/components/content-types/Page";
 
 import Teaser from "@/components/nestable/Teaser";
 import RichTextDefault from "@/components/nestable/RichText";
+import Hero from "@/components/nestable/Hero";
+import Grid from "@/components/nestable/Grid";
+import Header from "@/components/nestable/Header";
 
 const components = {
   "page": Page,
   "teaser":Teaser,
-  "richtext": RichTextDefault
+  "richtext": RichTextDefault,
+  "hero": Hero,
+  "grid": Grid,
+  "header": Header,
+ 
+  
+
 }
 
 storyblokInit({
